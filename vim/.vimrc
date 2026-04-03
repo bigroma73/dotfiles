@@ -28,4 +28,4 @@ autocmd FileType yaml setlocal tabstop=2 softtabstop=2 shiftwidth=2 expandtab au
 autocmd FileType yaml setlocal breakindent linebreak
 
 " paste mode
-set pastetoggle=<F2>
+set pastetoggle=<C-p>
