@@ -79,6 +79,8 @@ ln -sf ~/dotfiles/zsh/macos.zsh ~/.config/zsh/macos.zsh
 
 ln -sf ~/dotfiles/vim/.vimrc ~/.vimrc
 
+ln -sf ~/dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
+
 # --- Reload shell ---
 source ~/.zshrc
 
