@@ -42,6 +42,8 @@ case "$(uname -s)" in
   Darwin) [ -f ~/.config/zsh/macos.zsh ] && source ~/.config/zsh/macos.zsh ;;
 esac
 
+compdef eza=ls
+
 export EDITOR='vim'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
